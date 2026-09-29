@@ -1,0 +1,14 @@
+{
+  "name": "sniper-duell-relay",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Small WebSocket room relay for Sniper Duel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node relay_smoke_test.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
